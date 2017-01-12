@@ -14,7 +14,7 @@ public class RedisPool {
      * 传入ip和端口号构建redis 连接池
      *
      * @param ip   ip
-     * @param prot 端口
+     * @param port 端口
      */
     public RedisPool(String ip, int port) {
         if (pool == null) {
